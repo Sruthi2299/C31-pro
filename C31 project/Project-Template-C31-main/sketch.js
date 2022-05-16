@@ -90,19 +90,19 @@ function draw() {
       collided = true;
     }*/
 
-    if (distance <= 50) {
+    /*if (distance <= 50) {
       zombie.velocityX = 0;
       Matter.Body.setVelocity(stone.body, { x: 10, y: -10 });
       zombie.Image("sad");
       collided = true;
-    }
+    }*/
 
-    /*if (distance <= 50) {
+    if (distance <= 50) {
       zombie.velocityX = 0;
       Matter.Body.setVelocity(stone.body, { x: 10, y: -10 });
       zombie.changeImage("sad");
       collided = true;
-    }*/
+    }
 
     /*if (distance <= 50) {
       zombie.velocityX = 0;
